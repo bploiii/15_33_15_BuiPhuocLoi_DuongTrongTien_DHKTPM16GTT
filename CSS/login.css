@@ -1,0 +1,105 @@
+/*regester*/
+#form-login
+{
+   height: 1100px;
+    display: flex;
+    background-image: url(../IMG/background/v546batch3-mynt-34-badgewatercolor_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.login-box
+{
+    margin:  auto;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.login-header
+{
+    
+}
+.login-input-item
+{
+    width: 100%;
+    height: 40px; 
+    padding-left:6px; 
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(92, 79, 79);
+    margin-top: 10px;
+}
+.login-input-item:hover{
+    border: 1px solid black ;
+}
+.login-header
+{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.button-submit
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e17055;
+    font-size: 1.3rem;
+}
+.button-submit:hover
+{
+   background-color: #ff5252;
+   color: aliceblue;
+}
+.login-footer
+{
+    background-color: none;
+    border: none;
+    margin-top: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+.login-footer>a{
+    font-size: 1.1rem;
+    color: #ff7675;
+}
+
+/*login*/
+.button-login-item
+{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #e17055;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.3rem;
+}
+.login-foget
+{
+    margin-top: 10px;
+}
+.login-foget>a
+{
+    color: #d1ccc0;
+    font-size: 1rem;
+  
+}
+.login-socieis
+{
+    display: flex;
+}
+.login-socieis-button-1
+{
+    flex: 1;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 6px 0;
+    color: white;
+    border-radius: 3px;
+}
